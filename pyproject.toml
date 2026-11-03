@@ -1,0 +1,13 @@
+[project]
+name = "aceh-nlp-gpu"
+version = "1.0.0"
+description = "Aceh NLP model server: hosts one Hugging Face model behind a JSON API"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.4",
+    "transformers>=4.50",
+    "accelerate>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]

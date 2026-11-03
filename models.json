@@ -1,0 +1,46 @@
+{
+  "sailor2-8b": {
+    "repo": "sail/Sailor2-8B-Chat",
+    "kind": "chat"
+  },
+  "cendol-7b": {
+    "repo": "indonlp/cendol-llama2-7b-chat",
+    "kind": "chat",
+    "prompt_format": "raw_single_turn",
+    "prompt_source": "https://github.com/IndoNLP/cendol/blob/a34d590f1c7b82538cf0139eedb09b1b04382c0d/evaluation/local_prompt_gen.ipynb"
+  },
+  "komodo-7b": {
+    "repo": "Yellow-AI-NLP/komodo-7b-base",
+    "kind": "base"
+  },
+  "gemma3-4b": {
+    "repo": "google/gemma-3-4b-it",
+    "kind": "chat"
+  },
+  "gemma3-12b": {
+    "repo": "google/gemma-3-12b-it",
+    "kind": "chat"
+  },
+  "qwen3-4b": {
+    "repo": "Qwen/Qwen3-4B",
+    "kind": "chat",
+    "enable_thinking": false
+  },
+  "qwen3-8b": {
+    "repo": "Qwen/Qwen3-8B",
+    "kind": "chat",
+    "enable_thinking": false
+  },
+  "nllb": {
+    "repo": "facebook/nllb-200-distilled-600M",
+    "kind": "tokenizer_only"
+  },
+  "deepseek-v4.1-flash-1017": {
+    "repo": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "kind": "chat",
+    "role": "unmodified comparison baseline (not a pretraining-base release)",
+    "execution_backend": "external_required",
+    "execution_blocked": "Requires separately reviewed DeepSeek serving stack, hardware and explicit budget; no hosted inference authorized",
+    "prompt_format": "deepseek_reference_encoder"
+  }
+}
