@@ -1,11 +1,11 @@
-# aceh-nlp-gpu
+# aceh-nlp/gpu
 
 **Model hosting only.** One small server (`server.py`, standard library HTTP)
 that loads one Hugging Face model and serves it to the backend. No benchmark
 runners, no rental tooling, no data — datasets live in
-[aceh-nlp-dataset](https://github.com/aceh-nlp/aceh-nlp-dataset), the API that
+[aceh-nlp-dataset](https://github.com/aceh-nlp/dataset), the API that
 calls this server lives in
-[aceh-nlp-backend](https://github.com/aceh-nlp/aceh-nlp-backend).
+[aceh-nlp-backend](https://github.com/aceh-nlp/backend).
 
 ## Run
 
